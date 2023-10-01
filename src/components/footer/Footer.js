@@ -16,7 +16,7 @@ export default function Footer() {
 </Helmet>
 <div className='w-full flex flex-col items-center justify-center text-center  '>
   <h1 className='font-bold text-2xl  mb-3 cursor-pointer'>Avukat Ayşenur Ertan</h1>
-  <p className='text-base mb-3'>Introducing Synapse, a sleek and sophisticated<br></br> Ghost theme perfect for tech, science, culture or any other publication</p>
+  <p className='text-base mb-3'>Ertan Hukuk & Danışmanlık, çeşitli alanlarda nitelikli hukuki danışmanlık ve avukatlık hizmeti sunar.</p>
 <span className='text-sm'>© 2023 Ali Kemal Cimşit / Doğukan Özgür Yılmaz</span>
 </div>
 <div className='w-full flex justify-around mt-10  '>

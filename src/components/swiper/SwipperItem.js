@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SwipperItem({photo,text}) {
   return (
-    <div  style={{ backgroundImage: `url(${photo})` }} className='relative h-[200px] w-[190px] lg:h-[400px] lg:w-[380px]  flex flex-col text-center items-center justify-center rounded-xl bg-cover bg-center  '>
+    <div  style={{ backgroundImage: `url(${photo})` }} className='relative h-[200px] w-[190px] lg:h-[300px] lg:w-[280px] xl:h-[400px] lg:w-[380px]  flex flex-col text-center items-center justify-center rounded-xl bg-cover bg-center  '>
 <div className='absolute w-full h-full rounded-xl bg-black/50'>
 
 </div>

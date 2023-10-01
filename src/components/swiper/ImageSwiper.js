@@ -23,7 +23,7 @@ export default function ImageSwiper() {
            slidesOffsetAfter={200}
       slidesOffsetBefore={size<=768 ? 30 :100}
       spaceBetween={size<=768 ? 50 : 150}
-      slidesPerView={size<=768 ? 2:4}
+      slidesPerView={size<=768 ? 2:  size<=960 ? 3:4}
  
     >
       <SwiperSlide><SwipperItem photo={aileHukuku} text={"Aile Hukuku"}></SwipperItem></SwiperSlide>
